@@ -1,12 +1,53 @@
 html {
+  font-family: helvetica;
   text-align: center;
+  color: black;
 }
 
+h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h4 a {
+  color: white;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+p {
+  font-size: 14px;
+}
 
 #top-of-page {
-  background-image: url("../images/the-flatiron-building.png")
+  background-image: url("../images/the-flatiron-building.png");
+  background-size: auto 320px;
+  background-position: -450px 0px;
 }
 
 #mid-band {
-  background-image: url("../images/the-flatiron-building.png")
+  background-image: url("../images/the-flatiron-building.png");
+  background-position: -450px 0px;
+  height: 32px;
+}
+
+#mid-band h3 {
+  color: white;
+  padding: 4px;
+}
+
+#lower-band {
+  background-color: dimgray;
+}
+
+#lower-band h6,
+#lower-band h6 a {
+  color: white;
+  font-size: 11px;
+  text-align: left;
+  padding: 3px;
 }
